@@ -24,6 +24,6 @@ Front-end has a bad support for cross-browser compability, since it uses class a
 
 This application uses node.js, express.js and MySQL.
 
-Back end is a little bit unorganized, but I do not see the need to split it into smaller parts considering the small size of it. Backend app is ran with express. It accepts only one url /api/list with perPage, page, orderBy parameters. Before quering the main data from database, server will query for the amount of data and column names, which will later be processed and sent to the client. Based on received parameters from client, query to MySQL is being sent. Once responce from MySQL reaches the application, application sends response to the client with maxPage, headers, keyIdentifier and result response.
+Back end is a little bit unorganized, but I do not see the need to split it into smaller parts considering the small size of it. Backend app is ran with express. It accepts only one url `/api/list` with perPage, page, orderBy parameters. Before quering the main data from database, server will query for the amount of data and column names, which will later be processed and sent to the client. Based on received parameters from client, query to MySQL is being sent. Once response from MySQL reaches the application, application sends response to the client with maxPage, headers, keyIdentifier and result parameters.
 
 keyIdentifier specifies column name, which is unique.
