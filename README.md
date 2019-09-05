@@ -16,7 +16,7 @@ This application uses jquery library.
 
 Main table is being handled my ListManager class. You must parse required dom elements to the constructor, which will look for changes and accordingly send new xhr to web server. Once the response from the server is received, everything is fetched to the page, including pages, headers and data. 
 
-Last selected(clicked on) data is marked and fetched on the screen.
+Last selected (clicked on) data is marked and fetched on the screen.
 
 Front-end has a bad support for cross-browser compability, since it uses class and promise keywords.
 
