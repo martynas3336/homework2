@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+
+    <title>test</title>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script type='text/javascript' src='/ListManager.js'></script>
+    <link rel="stylesheet" href="/style.css">
+    <lin
+
+  </head>
+
+  <body>
+
+    <select class = 'perPageBody'>
+      <option value = '10'>10</option>
+      <option value = '20'>20</option>
+      <option value = '30'>30</option>
+      <option value = '40'>40</option>
+      <option value = '*'>*</option>
+    </select>
+
+    <div class = 'pageBody'></div>
+    <div class = 'lastSelectedBody'></div>
+    <table class = 'listBody'>
+      <thead>
+        <tr></tr>
+      </thead>
+
+      <tbody>
+
+      </tbody>
+    </table>
+
+  </body>
+
+</html>
+
+<script>
+  let listManager = new ListManager({listBody:$('.listBody'), perPageBody:$('.perPageBody'), pageBody:$('.pageBody'), lastSelectedBody:$('.lastSelectedBody')});
+  listManager.setup();
+</script>

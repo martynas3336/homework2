@@ -1,0 +1,39 @@
+.listBody {
+  width:100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+thead th {
+  border-bottom:2px solid black;
+}
+
+tbody td {
+  border-bottom:1px solid black;
+}
+
+.theaderCell {
+  cursor:pointer;
+  background-color:white;
+  transition:background-color 0.3s ease;
+}
+
+.theaderCell:focus, .theaderCell:hover {
+  background-color:rgba(0,0,0,0.1);
+  transition:background-color:0.3s ease;
+}
+
+.page {
+  cursor:pointer;
+  color:black;
+  transition:color 0.3s ease;
+}
+
+.page:hover, .page:focus {
+  color:red;
+  transition:color 0.3s ease;
+}
+
+.selected {
+  background-color:green;
+}
