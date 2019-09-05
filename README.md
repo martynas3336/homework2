@@ -6,7 +6,7 @@ This is a simple web project made for listing large data using ajax for front-en
 
 For front-end simply use some web server like nginx to route to www folder.
 
-For back-end you are going to need to install node.js and all required packages and then run node app/server.js. For consistency I would recommend using pm2 process manager in case something crashes or goes wrong.
+For back-end you are going to need to install node.js and all required packages and then run `node app/server.js`. For consistency I would recommend using pm2 process manager in case something crashes or goes wrong.
 
 ### How does it work
 
