@@ -1,6 +1,6 @@
 ### Description
 
-This is a simple web aplication made for listing large data using ajax for front-end and node.js for back-end code. MySQL database is used for data storaga.
+This is a simple web project made for listing large data using ajax for front-end and node.js for back-end code. MySQL database is used for data storage. This project is not the best and most efficient example of how large data should be handled, but at least it is very dynamic.
 
 ### How to run
 
