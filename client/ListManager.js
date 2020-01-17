@@ -180,7 +180,7 @@ class ListManager {
     {
       this.loading = true;
       $.ajax({
-        url: "https://test2.dealerproductions.com/api/list",
+        url: "https://homework2.dealerproductions.com/api/list",
         method:'GET',
         data: {
           "perPage":this.perPage,

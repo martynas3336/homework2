@@ -137,5 +137,3 @@ const addOrderBy = function(orderBy) {
     return '';
   }
 }
-
-}
